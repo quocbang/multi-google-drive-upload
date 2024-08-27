@@ -3,9 +3,9 @@ package workerpool
 type IWorker interface {
 }
 
-type Worker struct {
+type Ants struct {
 }
 
 func NewAntsWorkerPool() IWorker {
-	return &Worker{}
+	return &Ants{}
 }
